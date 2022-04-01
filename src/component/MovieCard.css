@@ -1,0 +1,15 @@
+.movies{
+    background-image: url(https://www.google.com/search?q=background+image&client=opera-gx&sxsrf=APq-WBtuEaCNbxqFKXYtQs5-Crj8LxZ-cQ:1648592389778&tbm=isch&source=iu&ictx=1&vet=1&fir=WJb3TVRKqLlSKM%252C0aKRK2RZxWjguM%252C_%253BoyYIYwb0H1yz7M%252C0aKRK2RZxWjguM%252C_%253Bgsq1qO8xIJf5xM%252Ci5oUTEWCwPkbrM%252C_%253BgmTDeqLGW325pM%252C0aKRK2RZxWjguM%252C_%253BRSuwYP4OUpBY1M%252C2UlEv2QDke5pGM%252C_%253BGM5UfQxGtdz0KM%252CQNklfQawUBkyDM%252C_%253BkXwag02GWx2cZM%252C5tfPhns_thvldM%252C_%253Bu-T79F0t_SHhHM%252CW9kiGKk9q956IM%252C_%253Bx_asCVpudABEkM%252CX5C_zPZvj6iYmM%252C_%253BgqzX1TfESdsqZM%252C0aKRK2RZxWjguM%252C_%253Bv88-M_AJ_P6MCM%252CnrS8yXEy4V6zEM%252C_%253BtbJ__Fzk_2VozM%252CLmxEG2fpBgMKnM%252C_%253Bs8cnn8j7VwoKqM%252CkmIztsADtIrUXM%252C_%253BseO4x3ec-jaFjM%252CLCj5QrwH7r-G0M%252C_%253BglOou5mBtEMGKM%252CkMZZQGcyyX5myM%252C_%253BsiX01uAf5qVBSM%252CDTqzyg6TX3ruGM%252C_%253B5xzutIhS7d1tJM%252CfBszHcolsNw0_M%252C_&usg=AI4_-kSY1810twYG0yxNPZ6mCLMGwFOycQ&sa=X&ved=2ahUKEwjXoJaerez2AhUJ6aQKHTtCBPsQ9QF6BAgeEAE#imgrc=gsq1qO8xIJf5xM)
+  
+    ;}
+.star{color:#b7dd29}
+
+
+.text{
+ text-align:center;
+ width: 50%;
+}
+.photo{
+    height: 300px;
+    width: 200px;
+}
