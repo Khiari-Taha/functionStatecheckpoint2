@@ -1,7 +1,6 @@
 import React from 'react'
-import {Card }  from 'react-bootstrap'
-
-
+import {Card,Button }  from 'react-bootstrap'
+import Moviecard from './MovieCard.css'
 function MovieCard({movie:{title, rate , image, desc, year, id}}) {
   return (
 
@@ -16,6 +15,8 @@ function MovieCard({movie:{title, rate , image, desc, year, id}}) {
         </div> 
           <Card className="cart">
           <Card.Body>
+          <Button variant="Add">Add</Button>
+          <Button variant="Edit">Edit</Button>
           <Card.Title>{title}</Card.Title>
           <Card.Text className='text'>
           {rate}
@@ -26,7 +27,7 @@ function MovieCard({movie:{title, rate , image, desc, year, id}}) {
           <Card.Text>
             {year} <br/> {id}
           </Card.Text>
-          <Card.Img className='photo' src={image} />
+          <Card.Img style={{width:"18rem"}} src={image} />
           </Card.Body>
            </Card>
     </div>

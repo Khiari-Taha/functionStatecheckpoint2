@@ -1,7 +1,7 @@
 import './App.css';
 import MovieCard from './component/MovieCard';
 import Movielist from './component/MovieList';
-
+import Header from './component/Header';
 function App() {
 
   const movies = [
@@ -35,7 +35,7 @@ function App() {
   ];
   return (
     <div className="App">
-     
+     <Header />
      <Movielist movies={movies} />
     </div>
   );
