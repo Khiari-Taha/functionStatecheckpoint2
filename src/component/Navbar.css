@@ -1,0 +1,22 @@
+.Container {background:#fff;
+    max-width: 960px;
+    margin:0 auto;}
+   .navigationlist{ list-style-type: none;
+    pading:0;
+    margin:0;
+   }
+    .nav-justify ul li {
+        display:inline-block
+        
+    }
+    .nav-justify li{width:20%}
+    .but{background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 12px;
+    }

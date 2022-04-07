@@ -1,14 +1,16 @@
 import React from 'react'
-import {Container,Nav,Button,FormControl,Form,NavDropdown,Navbar } from 'react-bootstrap'
+import {Container,Nav,Button,FormControl,Form,Navbar } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
- const Header=()=> {
+ const Header=({setSearchTxt})=> {
      
   return (
 <Navbar bg="light" expand="lg">
   <Container fluid>
-    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+    
+    <Navbar.Brand href="#">Go my Movie</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
+      
       <Nav
       
     />
@@ -18,6 +20,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
           placeholder="Search"
           className="me-2"
           aria-label="Search"
+          onChange={(e)=>setSearchTxt(e.target.value)}
         />
         <Button variant="outline-success">Search</Button>
       </Form>

@@ -1,11 +1,22 @@
 
 .star{color:#b7dd29}
 
-
 .text{
  text-align:center;
  width: 50px;
+ 
 }
 .photo{
     width: 50px;
 }
+.edit{background-color: #9ec435; 
+    display: inline-block;
+        border: none;
+        color: white;
+        margin: auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 12px;
+       
+        width:10%;}

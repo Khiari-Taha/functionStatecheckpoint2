@@ -1,6 +1,10 @@
 import React from 'react'
-import {Card,Button }  from 'react-bootstrap'
+import {Card }  from 'react-bootstrap'
 import Moviecard from './MovieCard.css'
+ import {Link } from "react-router-dom";
+ import { render } from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+//import Editmovie from "./Editmovie"; //
 function MovieCard({movie:{title, rate , image, desc, year, id}}) {
   return (
 
@@ -15,9 +19,7 @@ function MovieCard({movie:{title, rate , image, desc, year, id}}) {
         </div> 
           <Card className="cart">
           <Card.Body>
-          <Button variant="Add">Add</Button>
-          <Button variant="Edit">Edit</Button>
-          <Card.Title>{title}</Card.Title>
+          <Card.Title className='title' style={{}}>{title}</Card.Title>
           <Card.Text className='text'>
           {rate}
           </Card.Text>
@@ -29,6 +31,7 @@ function MovieCard({movie:{title, rate , image, desc, year, id}}) {
           </Card.Text>
           <Card.Img style={{width:"18rem"}} src={image} />
           </Card.Body>
+          <button className="edit"  /*onClick={Editmovie}*/   variant="Edit">Edit movie</button>
            </Card>
     </div>
 

@@ -2,6 +2,10 @@ import './App.css';
 import MovieCard from './component/MovieCard';
 import Movielist from './component/MovieList';
 import Header from './component/Header';
+import Navbar from './component/Navbar';
+import Description from "./component/Description";
+import { useState } from 'react';
+import {BrowserRouter as Router, Route,Switch} from 'react-router-dom'
 function App() {
 
   const movies = [
@@ -33,11 +37,26 @@ function App() {
       id: Math.random(),
     },
   ];
+
+  const [searchTxt , setSearchTxt] = useState('')
+
+
   return (
+    <Router>
     <div className="App">
-     <Header />
-     <Movielist movies={movies} />
-    </div>
+      <Navbar />
+     <Header setSearchTxt={setSearchTxt}/>
+     
+       <Route path="/">
+         element={
+     <Movielist movies={movies} searchTxt={searchTxt}/>}
+     </Route>
+     <Route
+          path="/Description/:idmovie ">      
+       < Description  movies={movies} />
+       </Route>
+       </div>
+    </Router>
   );
 }
 
